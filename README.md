@@ -38,7 +38,7 @@ where
 
 ## Output
 
-- observed fraction F of runs in which the red opinion won
-- predicted fraction m of runs in which the red opinion won
+- observed fraction *F* of runs in which the red opinion won
+- predicted fraction *m* of runs in which the red opinion won
 - observed mean consensus time with 95% confidence interval
 - predicted mean consensus time
