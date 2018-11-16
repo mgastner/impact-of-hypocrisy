@@ -2,9 +2,11 @@
 Source code for simulations presented in "The impact of hypocrisy on opinion formation: a dynamic model"
 
 ## Building the executable
-1. Install the GNU Scientific Library, see https://www.gnu.org/software/gsl/
-2. In a terminal, clone the repo and run
+1. Install the GNU Scientific Library, see https://www.gnu.org/software/gsl/.
+2. In a terminal, run these commands.
 ```
+git clone https://github.com/mgastner/impact-of-hypocrisy.git
+cd impact-of-hypocrisy/
 make
 ```
 This will build two executables: `bvm` for the Basic Voter Model and `cvm` for the Concealed Voter Model.
