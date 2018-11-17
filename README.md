@@ -44,4 +44,4 @@ where
 - predicted fraction *m* of runs in which the red opinion won
 - observed mean consensus time with 95% confidence interval
 - predicted mean consensus time
-- for the first run, the fraction of red agents as a function of time is printed to the file `dynamics.dat`.
+- During the first run, the fraction of red agents as a function of time is printed to the file `dynamics.dat`.
