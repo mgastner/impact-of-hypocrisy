@@ -1,7 +1,7 @@
 # impact-of-hypocrisy
 Source code for simulations presented in "The impact of hypocrisy on opinion formation: a dynamic model"
 
-## Building the executable
+## Building the executables
 1. Install GCC (Linux/Windows) or XCode (Mac). 
 2. Install the GNU Scientific Library, see https://www.gnu.org/software/gsl/.
 3. In a terminal, run these commands.
