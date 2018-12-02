@@ -1,5 +1,8 @@
 # impact-of-hypocrisy
-Source code for simulations presented in "The impact of hypocrisy on opinion formation: a dynamic model"
+Source code for simulations presented in "The impact of hypocrisy on
+opinion formation: a dynamic model"
+
+[![DOI](https://zenodo.org/badge/157838545.svg)](https://zenodo.org/badge/latestdoi/157838545)
 
 ## Building the executable
 1. Install the GNU Scientific Library, see https://www.gnu.org/software/gsl/
