@@ -4,10 +4,13 @@ opinion formation: a dynamic model"
 
 [![DOI](https://zenodo.org/badge/157838545.svg)](https://zenodo.org/badge/latestdoi/157838545)
 
-## Building the executable
-1. Install the GNU Scientific Library, see https://www.gnu.org/software/gsl/
-2. In a terminal, clone the repo and run
+## Building the executables
+1. Install GCC (Linux/Windows) or XCode (Mac). 
+2. Install the GNU Scientific Library, see https://www.gnu.org/software/gsl/.
+3. In a terminal, run these commands.
 ```
+git clone https://github.com/mgastner/impact-of-hypocrisy.git
+cd impact-of-hypocrisy/
 make
 ```
 This will build two executables: `bvm` for the Basic Voter Model and `cvm` for the Concealed Voter Model.
@@ -45,4 +48,4 @@ where
 - predicted fraction *m* of runs in which the red opinion won
 - observed mean consensus time with 95% confidence interval
 - predicted mean consensus time
-- for the first run, the fraction of red agents as a function of time is printed to the file `dynamics.dat`.
+- During the first run, the fraction of red agents as a function of time is printed to the file `dynamics.dat`.
